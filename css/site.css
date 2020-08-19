@@ -1,5 +1,5 @@
 body {font-family: "Source Sans Pro", Franklin Gothic Book, Helvetica, Arial, sans-serif; font-weight: lighter;
-  border: 52px #F8F8F8 solid; margin: 0px; padding: 20px 20px 200px 20px;}
+  padding: 20px 20px 200px 20px;}
 a {text-decoration: none; color: inherit; border-bottom: 1px dotted;}
 a:hover, .tool-box.available a:hover, .tool-box a:hover {color: #55b6ff; border-color: #55b6ff;}
 small {font-weight: 700; font-size: 11px; letter-spacing: .08em;}
@@ -27,13 +27,18 @@ ul.nav a:hover {color: #55b6ff; border-color: #55b6ff;}
 
 input:not([type=submit]):not([type=file]):not([type=checkbox]) {margin: 19px 4px; border: none;
   border-bottom: 1px solid #0087ff; background-color: transparent; padding: 0px;
-  font-family: Source Sans Pro; color: #acacac; font-size: 13px; height: 22px;}
+  font-family: Source Sans Pro; color: #acacac; font-size: 13px; height: 22px; width: 200px;}
 
 .sml-button {cursor: pointer;padding: 5px 7px; background-color: #0087ff; font-weight: 700; font-size: 12px;
   text-transform: uppercase; letter-spacing: .1em; text-align: center; color: #fff;}
 .sml-button:hover {opacity: .75;}
 .button-pressed {background: #55b6ff;}
 
+.product-image{
+  width: inherit;
+  height: 200px;
+  object-fit: cover;
+}
 /* #0087ff blue
    #0087ff; green */
 
